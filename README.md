@@ -1,15 +1,15 @@
 # Spotify-Project
-Overview
+## Overview
 
 Music streaming platforms like Spotify generate massive amounts of data related to song characteristics, user preferences, and listening habits. By applying clustering techniques to song audio features, this project explores hidden patterns in the music dataset.
 
 The objective is to group songs into meaningful clusters based on their audio features, providing insights into music styles and laying the foundation for applications such as playlist generation and recommendation systems.
 
-Dataset
+#### Dataset
 
 The dataset used is ML_spotify_data.csv, which contains audio features of songs. The dataset may either be sourced via the Spotify API or from pre-collected CSV files.
 
-Features
+#### Features
 
 Acousticness – measure of acoustic sound in a track
 
@@ -29,7 +29,7 @@ Tempo – beats per minute (BPM)
 
 Valence – musical positiveness of a track
 
-Preprocessing
+#### Preprocessing
 
 Handle missing values
 
@@ -39,7 +39,7 @@ Remove duplicates
 
 Optional: dimensionality reduction for visualization
 
-Methods
+### Methods
 
 The following unsupervised learning techniques are applied:
 
@@ -57,7 +57,7 @@ PCA (Principal Component Analysis) – for improving cluster separation
 
 t-SNE – for visualization in 2D
 
-Evaluation
+### Evaluation
 
 Since clustering is unsupervised, evaluation relies on interpretability and internal metrics:
 
